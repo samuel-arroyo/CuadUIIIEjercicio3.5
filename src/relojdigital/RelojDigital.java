@@ -19,7 +19,7 @@ public class RelojDigital
        ClockDisplay reloj = new ClockDisplay();     // crea el reloj en 00:00
 
         String hora = reloj.getTime();               // obtiene la hora inicial
-        System.out.println("Hora inicial: " + hora);
+        System.out.println("Hora inicial : " + hora);
 
         reloj.timeTick();                            // avanza un minuto
         String nuevaHora = reloj.getTime();
